@@ -92,7 +92,7 @@ function createRock(x) {
      */
 
      if(checkCollision(rock)){
-       return endGame();
+       endGame();
      }
 
     /**
